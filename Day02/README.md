@@ -1,4 +1,4 @@
-# Day01
+# Day02
 
 ## Outcomes
 Students will:
