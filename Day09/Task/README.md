@@ -1,58 +1,86 @@
 # HR-management-system
 
-## Task 09
+## **Task 09**
 
 ### **Overview**
 
-You will continue building on what you achieved in the last task.
+Today will be the beginning of a multi-Task project, where you will build an employee management system.
 
-## **Requirements**
+### **Problem domain**
 
-### **Set up your Github Repository***
+You are building an HR management system for a company, where they can organize their employees with their information and filter them.
 
-- Today you will continue working on your `HR-management-system` repo.
-- Update your **README** file to add your changes for today.
-- Check out a new branch called `constructor` for today's task.
+### **Requirements**
+
+#### Set up your Github Repository
+
+- Create a new repository called `HR-management-system`
+- Add a **README** file to add your changes for each day.
+- Clone this repo to your local machine.
+- Checkout a new branch called `constructor` for today's task.
 - Open it in VS code.
 
-### **Home page**
+You will create two pages index.html and accounting.html.
 
-1. Replace all of your object literals for the `HR-management-system` with a single constructor function that, when called with the ‘new’ keyword, creates a new instance.
+#### **Home page**
 
-2. You will refactor the render function to be a prototype function to render each employee name, department, and employee salary using `document.write()` or `innerHTML` as the following.
+1. Header for navigating to any other pages.
+2. Main render the information for each employee from javascript.
+3. Footer will have some social media links with copyright.
 
-3. Note that you need to keep the functions that are responsible for **generating employeeID** and **calculating the salary**. 
+### **Javascript**
 
-```
-Employee name: Ghazi Samer
-Department: Administration
-Employee salary: 1728
+1. You will create a constructor to generate an employee object which will be rendered in the main section from your app.js file.
+    - Employee ID
+    - Full Name
+    - Department:
+        - Administration
+        - Marketing
+        - Development
+        - Finance
 
-Employee name: Lana Ali
-Department: Finance
-Employee salary: 1809
+    - Level:
+        - Junior
+        - Mid-Senior
+        - Senior
 
-Employee name: Tamara Ayoub
-Department: Administration
-Employee salary: 1589
+    - Image URL
+    - Salary
+2. You will create a prototype function for calculating the salary using the provided table by generating a random number between the minimum and maximum salary for each level, use the below table to calculate the salary depends on the employee level.
 
-Employee name: Safi Walid
-Department: Development	
-Employee salary: 1178
+3. After calculating the random salary you should calculate the net salary where the tax percent is 7.5.
 
-Employee name: Rana Saleh
-Department: Development	
-Employee salary: 480
+    |Level|Min|Max|
+    |-----|---|---|
+    |Senior|1500|2000|
+    |Mid-Senior|1000|1500|
+    |Junior|500|1000|
 
-Employee name: Hadi Ahmad
-Department: Finance
-Employee salary: 1121
-```
+4. You will create a render prototype function to render each employee name with their salary in the home page.
 
+5. Use the information shown in the table below to create employees instances.
+
+    |Employee ID|Full Name|Department|Level|
+    |-----------|---------|----------|-----|
+    |1000|Ghazi Samer|Administration|Senior|
+    |1001|Lana Ali|Finance|Senior|
+    |1002|Tamara Ayoub|Marketing|Senior|
+    |1003|Safi Walid|Administration|Mid-Senior|
+    |1004|Omar Zaid|Development|Senior|
+    |1005|Rana Saleh|Development|Junior|
+    |1006|Hadi Ahmad|Finance|Mid-Senior|
+
+### **Accounting page**
+
+- For now this page should have:
+
+1. Header for navigating to any other pages.
+2. Main will be empty for today's task.
+3. Footer will have some social media links with copyright.
 
 
 ## Submission Instructions:
-- When your work is complete and ready for submission, push it to the `constructor` branch.
+- When your work is complete and ready for submission, push to the `constructor` branch.
 - Create a pull request.
 - Deploy to the Github pages.
 - Submit the pull request and deployed version (Live URL) links.
