@@ -14,14 +14,14 @@
 
 - Run this command `npm install`
 
-- Create a new branch `git checkout -b exercise06`
+- Create a new branch `git checkout -b exercise02`
 
 - To retrieve the code challenge run this command: `npm run pull-challenge <challenge-number>`
 
   - For example:
 
     ```bash
-    npm run pull-challenge 06
+    npm run pull-challenge 02
     ```
 
 
@@ -31,6 +31,6 @@
 
   - to run all tests: `npm test`
   - to run specific tests: `npm test <test-number>`
-    - For example: `npm test 06`
+    - For example: `npm test 02`
 
 ### Note: you will continue working on this repository in further Problem Solving Exercises 
