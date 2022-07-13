@@ -4,15 +4,6 @@
 
 ### For today Problem Solving exercise please follow the new instructions:
 
-- Create a new template using this link [template here](https://github.com/LTUC/prep-challenges/generate)
-
-- Name the new repository `Prep-Challenges` 
-
-- Clone the new repository in your local machine
-
-- Go inside the repository folder `cd Prep-Challenges` 
-
-- Run this command `npm install`
 
 - Create a new branch `git checkout -b exercise06`
 
