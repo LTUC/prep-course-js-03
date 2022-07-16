@@ -13,7 +13,6 @@ In this task you will continue building on what you achieved in the previous lab
 - Today you will continue working on your `Restaurant` repo.
 - Update your **README** file to add your changes for today.
 - Check out a new branch called `chartJS` for today's lab.
-- Install chart.js library `npm install chart.js`
 - Open it in VS code.
 
 ### Inside **Statistics page** :
